@@ -7,6 +7,7 @@ const currencies = require('../lib/currencies.json');
 
 const API = 'https://api.fixer.io/latest';
 
+// Applies conversion rates to all to currencies according to API in response parameter
 const convert = configuration => {
   const {amount, to, from, response, loading} = configuration;
 
@@ -33,6 +34,8 @@ const convert = configuration => {
   );
   process.exit(1);
 };
+
+// Gets amount, from currency and to currencies and sends them to convert.
 
 const cash = async command => {
   const amount = command.amount;

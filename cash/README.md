@@ -30,9 +30,9 @@ $ cash *command*
 
 ## Commands
 
-`--save`,  `-s`       Save currencies as default currencies. Basic default currencies are EUR, GBP and PLN
+`--save`,  `-s`       Save currencies as default currencies. Default initial currency is USD and default result currencies are EUR, GBP and PLN
 `--help`,  `-h`       Display help message
-`--version`,  `-v`     Display version number
+`--version`,  `-v`    Display version number
 
 ### Command Examples
 
